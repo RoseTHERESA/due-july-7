@@ -1,12 +1,6 @@
-
-
 answer = rand(1..10)
 puts "Pick a number between 1 and 10"
 input = gets.chomp.to_i
-
-puts answer
-puts input
-
 
 while input != answer
 	if input < answer
@@ -17,6 +11,4 @@ while input != answer
 		input = gets.chomp.to_i
 	end
 end
-puts "Congratulations. That is the lucky number"
-
-
+puts "Congratulations. That is the lucky number."
